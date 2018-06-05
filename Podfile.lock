@@ -1,0 +1,22 @@
+PODS:
+  - GoogleMaps (2.7.0):
+    - GoogleMaps/Maps (= 2.7.0)
+  - GoogleMaps/Base (2.7.0)
+  - GoogleMaps/Maps (2.7.0):
+    - GoogleMaps/Base
+  - pop (1.0.10)
+  - PureLayout (3.0.2)
+
+DEPENDENCIES:
+  - GoogleMaps
+  - pop
+  - PureLayout
+
+SPEC CHECKSUMS:
+  GoogleMaps: f79af95cb24d869457b1f961c93d3ce8b2f3b848
+  pop: 82ca6b068ce9278fd350fd9dd09482a0ce9492e6
+  PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
+
+PODFILE CHECKSUM: dcaefc69ec26be475a5fcdbb4ce9c65ddbf566d6
+
+COCOAPODS: 1.4.0
