@@ -22,6 +22,13 @@ class MyViewController: UIViewController {
     markers.append(MyMapPin.build(CLLocationCoordinate2D(latitude: 37.7508961, longitude: -122.4180867), name: "La Taqueria", mapView: mapView, size: .large))
     markers.append(MyMapPin.build(CLLocationCoordinate2D(latitude: 37.777171, longitude: -122.4129187), name: "Cellarmaker", mapView: mapView, size: .medium))
     markers.append(MyMapPin.build(CLLocationCoordinate2D(latitude: 37.7698262, longitude: -122.4204105), name: "Crafty Fox", mapView: mapView, size: .small))
+    
+    DispatchQueue.main.asyncAfter(deadline: .now() + 2.0, execute: {
+      NSLog("HI HI HI HI HI HIHI HI HI HI HI HIHI HI HI HI HI HIHI HI HI HI HI HIHI HI HI HI HI HI")
+      (self.markers[0].iconView as! MyMapPin).setSize(.small)
+      (self.markers[1].iconView as! MyMapPin).setSize(.large)
+    })
+
   }
 }
 
